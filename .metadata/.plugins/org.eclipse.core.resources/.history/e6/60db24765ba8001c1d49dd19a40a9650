@@ -1,0 +1,41 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+			
+		List<String> name = new ArrayList<>();
+		List<Integer> id = new ArrayList<>();
+		List<Double> salario = new ArrayList<>();
+		
+		System.out.println("Quantos funcionarios serao cadastrados? ");				
+		int n = sc.nextInt();
+		
+		sc.nextLine();
+		
+		for(int i = 0 ; i == n ; i++) {
+			
+			name.add(i, sc.nextLine());
+		}
+		
+		
+
+			
+		
+		
+		sc.close();
+		
+		
+
+	}
+
+}
